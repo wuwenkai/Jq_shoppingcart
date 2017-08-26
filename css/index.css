@@ -1,0 +1,143 @@
+.micWrap header {position: relative;}
+.micWrap header img {width: 100%;display: block;}
+
+.main {padding: 0 .2rem;}
+
+.micWrap .vipWrap {position: absolute; left: 0; bottom: -.88rem;padding: .05rem 0;border-bottom: 1px solid #ddd; width: 100%;}
+.micWrap .vipWrap .left , .vipWrap .right {float: left;}
+.micWrap .vipWrap .left { width: 20%;background: #fff;}
+.micWrap .vipWrap .left img {display: block; width: 100%;margin: .01rem;}
+.micWrap .vipWrap .right {padding-left: .1rem;width: 80%}
+.micWrap .vipWrap .right h2 {color: #fff; font-size: .36rem;}
+.micWrap .vipWrap .right ul {display: flex;padding-top: .9rem; text-align: center;width: 100%;}
+.micWrap .vipWrap .right ul a {color: #666;}
+.micWrap .vipWrap .right ul li { border-right: 1px solid #666; width: 33%;}
+.micWrap .vipWrap .right ul li span { height: .25rem; line-height: .25rem;display: inline-block; font-size: .36rem;}
+
+.micWrap .search {margin-top: .88rem;padding: .2rem 0;}
+.micWrap .search .fl { float: left; width: 80%; height: .6rem;background: #f1f1f1;border: 1px solid #ddd; -webkit-border-radius: .04rem; -moz-border-radius: .04rem; border-radius: .04rem;}
+.micWrap .search .fr { float: right; width: 18%; height: .6rem;-webkit-border-radius: .04rem; -moz-border-radius: .04rem; border-radius: .04rem;border: none;background: #f60; color: #fff; font-size: .3rem;}
+
+.micWrap .land {padding: 0 0 .2rem;}
+.micWrap .land a {display: block; width: 48%;background: #f60;text-align: center; height: .7rem; line-height: .7rem; font-size: .3rem; color: #fff;}
+.micWrap .land .fl { float: left;}
+.micWrap .land .fr { float: right;background: #06f;}
+
+.micWrap .carousel {width: 100%;}
+.micWrap .carousel img { width: 100%;}
+
+.micWrap .option li { float: left; width: 48%;margin-bottom: .1rem;}
+.micWrap .option .fr { float: right;}
+.micWrap .option a {display: block; width: 100%;background: #f60;text-align: center; height: .7rem; line-height: .7rem; font-size: .3rem; color: #fff;}
+
+.micWrap .productList {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.micWrap .productList li { width: 49%;padding: .1rem;border: 1px solid #ddd; font-size: .3rem; float: left; margin-bottom: .2rem;}
+.micWrap .productList li:nth-child(even) { float: right;}
+.micWrap .productList li img {width: 100%;display: block;border-bottom: 1px solid #ddd;}
+.micWrap .productList li .name {color: #333; height: .8rem; line-height: .8rem;border-bottom: 1px solid #eee;}
+.micWrap .productList li .price {color: #f60;}
+.micWrap .productList li span { color: #999;text-decoration: line-through;padding-left: .2rem;}
+
+.prolist li {padding: .2rem 0;border-bottom: 1px solid #ddd;}
+.prolist .fl { float: left;}
+.prolist .fl img { width: 1.2rem;display: block;}
+.prolist .right {padding-left: .2rem;}
+.prolist .right h3 { height: .6rem; line-height: .6rem; font-size: .3rem;}
+.prolist .right h3 a {color: #333;}
+.prolist .right .price {color: #f60;}
+.prolist .right .price span { color: #999;text-decoration: line-through;padding-left: .2rem;}
+.prolist .right .discount span {background: #f60;color: #fff;padding: .05rem;}
+.prolist .right .discount em { color: #999;padding-left: .2rem;}
+
+.micWrap .join {padding: .2rem 0;}
+.micWrap .join img { width: 100%;}
+
+.micWrap footer {text-align: center; font-size: .3rem;}
+.micWrap footer span {color: skyblue;}
+
+.tabbar {display: flex;text-align: center;border-top: 1px solid #ddd;position: fixed; left: 0; bottom: 0; width: 100%;background: #fff;}
+.tabbar .item { width: 25%;}
+.tabbar .item a {color: #333;}
+.tabbar .active a { color: #f60;}
+.tabbar .item span { height: .7rem; line-height: .7rem; font-size: .4rem;}
+.tabbar .item p { height: .6rem; line-height: .6rem;font-size: .3rem;}
+
+.comWrap .com_back {width: 100%;background: #f1f1f1; height: .8rem;}
+.comWrap .com_back a { font-size: .5rem;color: #333; float: left; width: 10%;text-align: center; line-height: .8rem;}
+.comWrap .com_back a span { padding-top: .1rem;}
+.comWrap .com_back input { float: left; width: 80%;background: #ccc;border: none;border-radius: 4px; height: .6rem;margin: .1rem 0;}
+
+.mineWrap header {background: url(../images/user01.png) no-repeat; -webkit-background-size: cover; background-size: cover; width: 100%;}
+.mineWrap header .name {padding: .5rem .8rem;}
+.mineWrap header .name .pic { width: .9rem; height: .9rem;background: #fff;border-radius: 4px;padding: 1px; float: left; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
+.mineWrap header .name .pic img { width: .9rem;height: .9rem;display: block;border-radius: 4px;}
+.mineWrap header .name h3 { color: #fff; font-size: .6rem;padding-left: .6rem; float: left;font-weight: normal;}
+.mineWrap header .balance {background: url(../images/tou.png);width: 100%; height: 1.06rem;padding: .1rem 0;color: #fff;}
+.mineWrap header .balance .left,.mineWrap header .balance .right { float: left; width: 50%; text-align: center;}
+.mineWrap header .balance .left { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;border-right: 1px solid #fff;}
+.mineWrap header .balance h5 { font-size: .4rem;}
+.mineWrap .content .order { height: .8rem;font-size: .25rem;padding: 0 .2rem;border-bottom: 1px solid #ddd;}
+.mineWrap .content .order a { color: #333; line-height: .8rem;background: url(../images/jian-new.png) no-repeat right center; width: 90%;display: inline-block;}
+.mineWrap .content .state {display: flex;padding: .8rem 0 .4rem;}
+.mineWrap .content .state a {color: #7b7b7b;}
+.mineWrap .content .state .item { width: 25%; text-align: center;}
+.mineWrap .logout { width: 100%;padding: .4rem .2rem;}
+.mineWrap .logout a { width: 100%;background: #f60; color: #fff;display: inline-block; height: .8rem; line-height: .8rem;text-align: center;border-radius: 4px;font-size: .4rem;}
+
+.shopWrap .com_back {width: 100%;background: #f1f1f1; height: .8rem;position: relative;}
+.shopWrap .com_back a {position: absolute; left: 0; top: .15rem; font-size: .4rem; color: #333;}
+.shopWrap .com_back h3 { text-align: center; line-height: .8rem; font-size: .4rem; font-weight: normal;}
+.shopWrap .banner { width: 100%;}
+.shopWrap .banner img { width: 100%;}
+.shopWrap .shopCart { font-size: .3rem; color: #999; display: flex;padding: .2rem 0;border-bottom: 1px solid #ddd;}
+.shopWrap .shopCart p { width: 75%; border-right: 1px solid #ccc;padding-left: .2rem;}
+.shopWrap .shopCart p em { color: #f60;}
+.shopWrap .shopCart .right {padding: 0 1rem; color: #666;}
+.shopWrap .shoplist {padding-top: .4rem;}
+.shopWrap .allcheck {padding: .4rem .2rem;width: 100%; font-size: .3rem;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.shopWrap .list {display: flex;padding: .2rem;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.shopWrap .list .left { width: 10%;padding-top: .4rem;}
+.shopWrap .list .mid { width: 70%;display: flex;}
+.shopWrap .list .mid .pic { width: 20%;}
+.shopWrap .list .mid .pic img { width: 100%;}
+.shopWrap .list .mid .txt {padding-right: .4rem;}
+.shopWrap .list .mid .txt h3 { font-size: .3rem;color: #333;}
+.shopWrap .list .mid .txt p {color: #999;}
+.shopWrap .list .right { width: 20%;padding-top: .3rem;vertical-align: top;}
+.shopWrap .list .right button { width: .4rem; height: .4rem;}
+.shopWrap .list .right span { width: .4rem; height: .4rem;background: #ccc;display: inline-block; text-align: center; line-height: .4rem;}
+.shopWrap .total {padding: .4rem .2rem; color: #f60; font-size: .3rem;}
+.shopWrap .settlement {position: fixed; left: 0; bottom: 0; height: 1.3rem;background: #fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;border: 1px solid #ddd; width: 100%;display: flex;}
+.shopWrap .settlement .left {display: block; width: 10%;}
+.shopWrap .settlement .left span {padding-top: .3rem;}
+.shopWrap .settlement .mid { font-size: .3rem; line-height: 1.3rem; border-left: 1px solid #ddd; border-right: 1px solid #ddd; width: 50%;}
+.shopWrap .settlement .mid span {color: #f60;}
+.shopWrap .settlement .right { width: 40%;}
+.shopWrap .settlement .right a {font-size: .4rem; text-align: center; line-height: 1.14rem; color: #fff;background: #f60;display: block;border-radius: 4px;position: static;}
+
+.detailWrap .com_back {width: 100%;background: #f1f1f1; height: .8rem;position: relative;}
+.detailWrap .com_back a {position: absolute; left: 0; top: .15rem; font-size: .4rem; color: #333;}
+.detailWrap .com_back h3 { text-align: center; line-height: .8rem; font-size: .4rem; font-weight: normal;}
+.detailWrap .carousel {width: 100%;}
+.detailWrap .carousel img { width: 100%;}
+.detailWrap .univalent {border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;padding: .4rem 0;display: flex;}
+.detailWrap .univalent .price { width: 70%;padding-left: .2rem; color: #f60; font-size: .3rem;}
+.detailWrap .univalent .btn { width: 30%;}
+.detailWrap .univalent .btn button { width: .4rem; height: .4rem;}
+.detailWrap .univalent .btn span { width: .4rem; height: .4rem;background: #ccc;display: inline-block; text-align: center; line-height: .4rem;}
+.detailWrap .like {position: relative; width: 100%;padding: .4rem .2rem; font-size: .3rem;border-bottom: 1px solid #ddd;}
+.detailWrap .like .pr { position: absolute; right: .2rem; top: 30%;font-size: .5rem;}
+.detailWrap .like p { color: #999;}
+.detailWrap .like .pr.active { color: #f60;}
+.detailWrap .format p { height: .8rem; line-height: .8rem;padding: 0 .2rem; margin-top: .4rem;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd; font-size: .3rem;}
+.detailWrap .format ul {display: flex;flex-wrap: wrap; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;border-bottom: 1px solid #ddd;}
+.detailWrap .format ul li { width: 50%;padding: .1rem;}
+.detailWrap .format ul li a {border: 1px solid #ccc;display: block; width: 100%;padding: .2rem 0; text-align: center; color: #333; font-size: .3rem;}
+.detailWrap .format ul .active a {border-color: #f60;}
+.detailWrap .category {display: flex;box-sizing: border-box;background: #f1f1f1;}
+.detailWrap .category .border-r { border-right: 1px solid #ddd;}
+.detailWrap .category a { font-size: .3rem;padding: .2rem; display: inline-block; width: 33%; text-align: center; color: #a6a6a6;}
+.detailWrap .category .active { color: #f60;}
+.detailWrap .proinfoList { width: 100%; height: 6rem; font-size: .6rem;}
+.detailWrap .proinfoList img { width: 100%; display: block;}
+.detailWrap #jionCart { font-size: .4rem;}

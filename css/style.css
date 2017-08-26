@@ -1,0 +1,6 @@
+* {margin: 0;padding: 0;}
+ul, ol {list-style: none;}
+html {font-size: 100px;}
+body {font-size: .22rem;font-family: Arial, "Microsoft YaHei";padding-bottom: 1.3rem;}
+em {font-style: normal;}
+.clearfix:after {display: block;content: "200B"; height: 0; font-size: 0; clear: both;}
